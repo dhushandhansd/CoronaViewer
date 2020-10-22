@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893144585605",
+    "firebase_url": "https://corona-viewer-19dd7.firebaseio.com",
+    "project_id": "corona-viewer-19dd7",
+    "storage_bucket": "corona-viewer-19dd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893144585605:android:af5881811f58617b7fa0ec",
+        "android_client_info": {
+          "package_name": "com.sd.coronaviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893144585605-7o25p2rb9t8a4ovmlaeo2cnq1qpj3vou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sd.coronaviewer",
+            "certificate_hash": "7283e7e15d2bd4a96733a5995976ffaab8885a29"
+          }
+        },
+        {
+          "client_id": "893144585605-2g4bf2u1tm1464h30fr768df9h3kjf16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqKFlARxU-TAX7_yXQJtmoR7YwUQAXVJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893144585605-2g4bf2u1tm1464h30fr768df9h3kjf16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

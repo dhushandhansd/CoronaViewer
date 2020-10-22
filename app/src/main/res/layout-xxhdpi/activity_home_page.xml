@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redbg"
+    tools:context=".HomePage">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/gradient4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/gradient4"/>
+
+    <ImageView
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/textback1" />
+
+    <ImageView
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/textback1" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/gradient2"/>
+
+    <ImageView
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="479dp"
+        android:background="@drawable/textbacl2" />
+
+    <ImageView
+        android:id="@+id/textbg"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COVID VIEWER"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true" />
+
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corona Virus Cases"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/corondisp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deaths"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/corona_deaths1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#DF281B"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recovered"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/corona_recov1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:textSize="25sp"/>
+
+
+
+    <TextView
+        android:id="@+id/critictxt"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Active Patients"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:paddingStart="70dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"/>
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Condition:"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical Condition:"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_marginStart="70dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/corona_ncond1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginStart="250dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/corona_ccond1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="418dp"
+        android:layout_marginStart="250dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/critictxt"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Recovered/Deaths"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:paddingStart="50dp"
+        android:paddingEnd="10dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"/>
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recovered:"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="540dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/coronarecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#FFEB3B"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="538dp"
+        android:layout_marginStart="240dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/corona_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deaths:"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="580dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="152dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/coronadeaths2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textStyle="bold"
+        android:textColor="#FFEB3B"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="580dp"
+        android:layout_marginStart="240dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="55dp"/>
+
+    <TextView
+        android:id="@+id/copyEnds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="76dp"
+        android:text="©UKSD"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/textbg"
+        android:layout_width="match_parent"
+        android:rotation="180"
+        android:layout_height="55dp"
+        android:background="@drawable/bg"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:id="@+id/liveicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/live"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="7dp"/>
+
+    <ImageView
+        android:id="@+id/mapicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/worldwide1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="7dp"/>
+
+    <ImageView
+        android:id="@+id/todoicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/clipboard"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="330dp"
+        android:layout_marginBottom="7dp"/>
+
+    <TextView
+        android:id="@+id/indiabutton"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/buttons_back"
+        android:gravity="center"
+        android:onClick="indialist"
+        android:layout_marginEnd="40dp"
+        android:padding="5dp"
+        android:text="INDIA"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

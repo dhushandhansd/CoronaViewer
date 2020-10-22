@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Covid Viewer</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="about_virus">Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.
+The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.</string>
+    <string name="spread">Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.</string>
+    <string name="symptoms">People may experience\n1.Cough\n2.Fever\n3.Tiredness\n4.Difficulty breathing (severe cases)\nMore rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.</string>
+    <string name="treament">If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms if you:\n1.Rest and Sleep\n2.Keep warm\n3.Drink plenty of Liquids\n4.Use a room humidifier or take a hot shower to help ease a sore throat and cough</string>
+    <string name="shree">1.Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub
+\n2.Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+\n3.Avoid close contact (1 meter or 3 feet) with people who are unwell
+\n4.Stay home and self-isolate from others in the household if you feel unwell</string>
+</resources>
